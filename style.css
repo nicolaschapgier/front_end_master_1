@@ -82,5 +82,9 @@ button{
     border-radius: 7px;
     color: #FFFFFF;
     cursor: pointer;
-    justify-content: space-around;
+    align-items: center;
+}
+
+svg{
+    margin-right: 10px;
 }
