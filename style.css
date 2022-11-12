@@ -78,7 +78,9 @@ button{
     background-color: #3d8168;
     border: none;
     padding: 15px;
+    font-weight: 700;
     border-radius: 7px;
     color: #FFFFFF;
     cursor: pointer;
+    justify-content: space-around;
 }
