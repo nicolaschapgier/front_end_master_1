@@ -10,6 +10,7 @@
   --button-color : #3d8168;
   --font-fam1: 'Montserrat', sans-serif;
   --font-fam2 : 'Fraunces', serif;
+  --font-size : 12px;
 
 }
 
@@ -47,13 +48,13 @@ body{
 .perfume{
   letter-spacing: 5px;  
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: var(--font-size);
 }
 
 .title{
     font-family: var(--font-fam2);
     font-weight: 700;
-    font-size: 31px;
+    font-size: calc(var(--font-size) + 19px);
     text-align: left;
 }
 .description{
@@ -64,21 +65,23 @@ body{
 }
 
 .paragraph{
-    font-size: 15px;
+    font-size: calc(var(--font-size) + 3px);
 }
 
 .price{
     color: var(--button-color);
     font-weight: 700;
     font-family: var(--font-fam2);
-    font-size: 32px;
+    font-size: calc(var(--font-size) * 3 - 4px);
+    /* font-size: 32px; */
     display: flex;
     align-items: center;
 }
 .cross{
     font-family: var(--font-fam1);
     font-weight: 500;
-    font-size: 13px;
+    font-size: calc(var(--font-size) + 1px);
+    /* font-size: 13px; */
     color: var(--font-color);
     text-decoration: line-through;
     padding-left: 7%;
@@ -124,7 +127,8 @@ svg{
   }
   .description{
     margin : 10px 0px 10px 0px;
-    font-size: 16px;
+    font-size: calc(var(--font-size) + 4px);
+    /* font-size: 16px; */
   }
   .price{
     margin : 30px 0px 40px 0px;
