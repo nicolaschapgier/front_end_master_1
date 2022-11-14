@@ -7,6 +7,7 @@
   --bg-body : #f3eae3; 
   --bg-card : #FFFFFF;
   --font-color : #82858a;
+  --button-color : #3d8168;
 }
 
 body{
@@ -64,7 +65,7 @@ body{
 }
 
 .price{
-    color: #3d8168;
+    color: var(--button-color);
     font-weight: 700;
     font-family: 'Fraunces', serif;
     font-size: 32px;
@@ -83,7 +84,7 @@ body{
 button{
     display: flex;
     justify-content: center;
-    background-color: #3d8168;
+    background-color: var(--button-color);
     border: none;
     padding: 15px;
     font-weight: 700;
