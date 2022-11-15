@@ -19,8 +19,8 @@ body{
   justify-content: center;
   align-items: center;
 /* utilisisé pour centrer le rendu */
-    min-height: 100vh;
-    background-color: var(--bg-body);
+  min-height: 100vh;
+  background-color: var(--bg-body);
 }
 
 .content{
@@ -48,15 +48,15 @@ body{
 }
 
 .perfume{
+  font-size: var(--font-size);
   letter-spacing: 5px;  
   text-transform: uppercase;
-  font-size: var(--font-size);
 }
 
 .title{
+    font-size: calc(var(--font-size) + 19px);
     font-family: var(--font-fam2);
     font-weight: 700;
-    font-size: calc(var(--font-size) + 19px);
     /* font_size: 31px */
     text-align: left;
 }
@@ -72,10 +72,10 @@ body{
 }
 
 .price{
+    font-size: calc(var(--font-size) * 3 - 4px);
     color: var(--button-color);
     font-weight: 700;
     font-family: var(--font-fam2);
-    font-size: calc(var(--font-size) * 3 - 4px);
     /* font-size: 32px; */
     display: flex;
     align-items: center;
