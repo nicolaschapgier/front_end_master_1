@@ -1,0 +1,31 @@
+/* .parent{
+    width: 80px;
+} */
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.content2{
+    display: flex;
+}
+.flex{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.flex1{
+    background-color: blue;
+    flex: 1;
+}
+
+.flex2{
+    background-color: green;
+    flex: 1;
+}
+
+.flex3{
+    background-color: red;
+    flex: 3;
+}
+
+
