@@ -33,7 +33,7 @@ body{
 .images{
     background-image: url(/images/image-product-desktop.jpg);
     width: 50%;
-    height: 450px;
+    height: 100%;
     border-radius: 10px 0px 0px 10px;
     background-size:cover;
 }
