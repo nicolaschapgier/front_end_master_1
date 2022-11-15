@@ -110,13 +110,11 @@ svg{
 /* ******************************* MEDIA QUERIES ******************************* */
 
 @media (max-width : 375px) {
- 
 .content{
   flex-direction: column;
   height: 80vh;
   width: 90vw;  
 }
-
 .info{
   width: 90vw;
 }
@@ -125,7 +123,6 @@ svg{
   border-radius: 10px 10px 0 0;
   background-image: url(/images/image-product-mobile.jpg);
   background-size: cover;
-  /* background-repeat: no-repeat; */
   width: 100%;
 }
 .title, .description, .price{
