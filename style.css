@@ -55,9 +55,9 @@ body{
 
 .title{
     font-size: calc(var(--font-size) + 19px);
+    /* font_size: 31px */
     font-family: var(--font-fam2);
     font-weight: 700;
-    /* font_size: 31px */
     text-align: left;
 }
 .description{
@@ -73,18 +73,18 @@ body{
 
 .price{
     font-size: calc(var(--font-size) * 3 - 4px);
+    /* font-size: 32px; */
     color: var(--button-color);
     font-weight: 700;
     font-family: var(--font-fam2);
-    /* font-size: 32px; */
     display: flex;
     align-items: center;
 }
 .cross{
     font-family: var(--font-fam1);
+    /* font-size: 13px; */
     font-weight: 500;
     font-size: calc(var(--font-size) + 1px);
-    /* font-size: 13px; */
     color: var(--font-color);
     text-decoration: line-through;
     padding-left: 7%;
