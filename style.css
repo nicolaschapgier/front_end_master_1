@@ -105,6 +105,10 @@ svg{
     margin-right: 10px;
 }
 
+
+
+/* ******************************* MEDIA QUERIES ******************************* */
+
 @media (max-width : 375px) {
  
 .content{
@@ -117,12 +121,12 @@ svg{
   width: 90vw;
 }
 .images{
-  height: 250px;
+  height: 100%;
   border-radius: 10px 10px 0 0;
   background-image: url(/images/image-product-mobile.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 90vw;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  width: 100%;
 }
 .title, .description, .price{
   margin-bottom: 10px;
