@@ -15,9 +15,10 @@
 }
 
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+/* utilisisé pour centrer le rendu */
     min-height: 100vh;
     background-color: var(--bg-body);
 }
@@ -56,6 +57,7 @@ body{
     font-family: var(--font-fam2);
     font-weight: 700;
     font-size: calc(var(--font-size) + 19px);
+    /* font_size: 31px */
     text-align: left;
 }
 .description{
